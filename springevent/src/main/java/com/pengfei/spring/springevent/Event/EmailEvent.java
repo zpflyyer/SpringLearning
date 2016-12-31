@@ -2,11 +2,13 @@ package com.pengfei.spring.springevent.Event;
 
 import com.pengfei.spring.springevent.Service.BaseEvent;
 import lombok.Data;
+import lombok.EqualsAndHashCode;
 
 /**
  * Created by zhaopen on 12/29/2016.
  */
 @Data
+@EqualsAndHashCode(callSuper = false)
 public class EmailEvent extends BaseEvent{
 
     Event_Type event_type;

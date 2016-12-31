@@ -42,10 +42,12 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/javalogictest/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/StringTest/pom.xml" />
         <option value="$PROJECT_DIR$/quickstart/pom.xml" />
       </set>
     </option>

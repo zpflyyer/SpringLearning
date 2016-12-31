@@ -7,14 +7,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Inherience" />
+        <module name="javalogictest" />
         <module name="quickstart" />
         <module name="springevent" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="Inherience" target="1.5" />
+      <module name="javalogictest" target="1.5" />
       <module name="quickstart" target="1.5" />
       <module name="springevent" target="1.5" />
+      <module name="SpringLearnPro" target="1.5" />
       <module name="SprinLearning" target="1.5" />
+      <module name="StringTest" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -11,14 +11,14 @@ import java.util.Date;
 @Data
 public class BroadcastEvent extends BaseEvent {
 
-    Event_Type event_type;
+    Event_Type event_Type;
     BroadcastType broadcastType;
     private Date time;
     private String message;
 
     public BroadcastEvent(Object source,String message,BroadcastType broadcastType,Date time) {
         super(source,message);
-        this.event_type = Event_Type.Broadcast_Type;
+        this.event_Type = Event_Type.Broadcast_Type;
         this.message = message;
         this.broadcastType = broadcastType;
         this.time = time;

@@ -11,6 +11,7 @@
     <modules>
         <module>quickstart</module>
         <module>springevent</module>
+        <module>javalogictest</module>
     </modules>
 
     <dependencies>

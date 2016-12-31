@@ -1,12 +1,14 @@
 package com.pengfei.spring.springevent.Service;
 
 import lombok.Data;
+import lombok.EqualsAndHashCode;
 import lombok.extern.java.Log;
 import org.springframework.context.ApplicationEvent;
 
 import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
 import java.util.logging.Level;
+
 
 /**
  * Created by zhaopen on 12/28/2016.
@@ -17,10 +19,11 @@ import java.util.logging.Level;
 //explicitly calls a super class constructor that you provided (with arguments), then there is no need
 //of no arguments constructor in the super class. So, the following will compile；
 @Data
+@EqualsAndHashCode(callSuper = true)
 @Log
 public class BaseEvent extends ApplicationEvent {
 
-    Event_Type event_type;
+    protected  Event_Type event_type;
     private String message;
 
     public BaseEvent(Object source,String message){

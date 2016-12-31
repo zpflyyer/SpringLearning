@@ -8,10 +8,9 @@ import lombok.EqualsAndHashCode;
  * Created by zhaopen on 12/29/2016.
  */
 @Data
-@EqualsAndHashCode(callSuper = false)
+@EqualsAndHashCode(callSuper = true)
 public class EmailEvent extends BaseEvent{
 
-    Event_Type event_type;
     private String message;
     private String address;
     private String name;

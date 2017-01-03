@@ -1,6 +1,9 @@
 package com.pengfei.spring.javalogictest.Inheritance;
 
+
+
 import lombok.extern.java.Log;
+import lombok.extern.slf4j.Slf4j;
 
 import java.util.logging.Level;
 
@@ -11,7 +14,7 @@ import java.util.logging.Level;
 //     继承的特点：声明类型为基类的对象，即使编译时类型为导出类时，其非私有域依然是基类的值，只有非私有方法可能被导出类覆盖；从内存分配上来说就是如此
 @Log
 class ClassB extends ClassA {
-    public int field2 = 4;
+    private int field2 = 4;
 
     public static void main(String[] args) {
         ClassB b = new ClassB();

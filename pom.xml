@@ -12,6 +12,7 @@
         <module>quickstart</module>
         <module>springevent</module>
         <module>javalogictest</module>
+        <module>createBean</module>
     </modules>
 
     <dependencies>

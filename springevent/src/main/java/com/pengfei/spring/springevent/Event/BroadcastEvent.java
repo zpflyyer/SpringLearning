@@ -3,6 +3,7 @@ package com.pengfei.spring.springevent.Event;
 import com.pengfei.spring.springevent.Service.BaseEvent;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
+import lombok.ToString;
 
 import java.util.Date;
 
@@ -11,21 +12,17 @@ import java.util.Date;
  */
 @Data
 @EqualsAndHashCode(callSuper = true)
+@ToString(callSuper = true)
 public class BroadcastEvent extends BaseEvent {
 
-    BroadcastType broadcastType;
+    private BroadcastEnum broadcastType;
     private Date time;
-    private String message;
 
-    public BroadcastEvent(Object source,String message,BroadcastType broadcastType,Date time) {
+    public BroadcastEvent(Object source, String message, Date time) {
         super(source,message);
-        this.event_type = Event_Type.Broadcast_Type;
+        this.event_type = EventEnum.BROADCAST_TYPE;
         this.message = message;
-        this.broadcastType = broadcastType;
+//        this.broadcastType = broadcastType;
         this.time = time;
-    }
-
-    public enum BroadcastType{
-        Warning,News,Notice,Fun,General
     }
 }

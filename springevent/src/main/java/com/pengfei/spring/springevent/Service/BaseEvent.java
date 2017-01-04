@@ -1,5 +1,6 @@
 package com.pengfei.spring.springevent.Service;
 
+import com.pengfei.spring.springevent.Event.EventEnum;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.extern.java.Log;
@@ -23,13 +24,13 @@ import java.util.logging.Level;
 @Log
 public class BaseEvent extends ApplicationEvent {
 
-    protected  Event_Type event_type;
-    private String message;
+    protected EventEnum event_type;
+    protected String message;
 
     public BaseEvent(Object source,String message){
         super(source);
         this.message = message;
-        this.event_type = Event_Type.General_Type;
+        this.event_type = EventEnum.GENERAL_TYPE;
     }
 
     @PostConstruct
@@ -42,7 +43,4 @@ public class BaseEvent extends ApplicationEvent {
         log.log(Level.INFO, "销毁：" + this + "is going to be destroyed!");
     }
 
-    public enum Event_Type {
-        General_Type, Email_Type, Broadcast_Type
-    }
 }

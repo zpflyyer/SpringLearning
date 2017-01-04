@@ -7,7 +7,7 @@ import lombok.EqualsAndHashCode;
  * Created by zhaopen on 12/30/2016.
  */
 @Data
-@EqualsAndHashCode
+@EqualsAndHashCode(callSuper = true)
 class MonsterUnit extends GeneralUnit {
 
     private String name;

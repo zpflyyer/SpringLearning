@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/SpringLearnPro.iml" filepath="$PROJECT_DIR$/SpringLearnPro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/createBean/createBean.iml" filepath="$PROJECT_DIR$/createBean/createBean.iml" />
       <module fileurl="file://$PROJECT_DIR$/javalogictest/javalogictest.iml" filepath="$PROJECT_DIR$/javalogictest/javalogictest.iml" />
       <module fileurl="file://$PROJECT_DIR$/quickstart/quickstart.iml" filepath="$PROJECT_DIR$/quickstart/quickstart.iml" />
       <module fileurl="file://$PROJECT_DIR$/springevent/springevent.iml" filepath="$PROJECT_DIR$/springevent/springevent.iml" />

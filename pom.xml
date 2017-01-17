@@ -13,6 +13,7 @@
         <module>springevent</module>
         <module>javalogictest</module>
         <module>createBean</module>
+        <module>spelExpression</module>
     </modules>
 
     <dependencies>

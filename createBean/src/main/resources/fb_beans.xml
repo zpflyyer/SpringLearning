@@ -4,7 +4,7 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
 	http://www.springframework.org/schema/beans/spring-beans-4.0.xsd">
 
-    <bean id="north" class="com.pengfei.spring.factorymethod.Factory_Bean.GetFiledFactoryBean">
+    <bean id="north" class="com.pengfei.spring.ceateBean.Factory_Bean.GetFiledFactoryBean" >
         <property name="targetClass" value="java.awt.BorderLayout"/>
         <property name="targetField" value="NORTH"/>
     </bean>

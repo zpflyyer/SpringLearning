@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="GBK"?>
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns="http://www.springframework.org/schema/beans"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-4.0.xsd">
+
+    <bean id="cat1" class="com.pengfei.spring.ceateBean.MethodInvokingFactoryBean.Cat">
+        <property name="age" value="2"/>
+        <property name="name" value="tom"/>
+    </bean>
+
+    <bean id="tom2" class="com.pengfei.spring.ceateBean.MethodInvokingFactoryBean.Cat">
+        <property name="age">
+            <bean class="org.springframework.beans.factory.config.MethodInvokingFactoryBean">
+                <property name="targetObject" ref="cat1"/>
+                <property name="targetMethod" value="grow"/>
+                <property name="arguments">
+                    <list>
+                        <value>3</value>
+                    </list>
+                </property>
+            </bean>
+        </property>
+
+        <property name="name" value="tom's brother"/>
+    </bean>
+
+</beans>

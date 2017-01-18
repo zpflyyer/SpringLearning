@@ -1,5 +1,6 @@
 package com.pengfei.spring.springevent;
 
+import com.pengfei.spring.springevent.Event.EventEnum;
 import com.pengfei.spring.springevent.Publisher.BasePublisherAutowired;
 import com.pengfei.spring.springevent.Publisher.BroadcastPublisherAware;
 import com.pengfei.spring.springevent.Publisher.EmailPublisherAware;

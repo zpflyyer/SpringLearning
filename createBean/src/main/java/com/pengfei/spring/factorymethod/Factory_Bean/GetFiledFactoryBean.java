@@ -33,5 +33,6 @@ public class GetFiledFactoryBean implements FactoryBean{
     public static void main(String[] args) {
         ApplicationContext ctx = new ClassPathXmlApplicationContext("fb_beans.xml");
         System.out.println(ctx.getBean("north"));
+        System.out.println(ctx.getBean("&north"));
     }
 }

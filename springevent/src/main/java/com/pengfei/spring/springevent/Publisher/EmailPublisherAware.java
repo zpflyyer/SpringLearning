@@ -2,6 +2,7 @@ package com.pengfei.spring.springevent.Publisher;
 
 import com.pengfei.spring.springevent.Event.EmailEvent;
 import com.pengfei.spring.springevent.Service.EventPublisher;
+import lombok.SneakyThrows;
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
@@ -19,7 +20,8 @@ public class EmailPublisherAware extends EventPublisher implements ApplicationCo
 
     private ApplicationContext ctx;
 
-    public void setApplicationContext(ApplicationContext applicationContext) throws BeansException {
+    @SneakyThrows
+    public void setApplicationContext(ApplicationContext applicationContext)  {
         this.ctx = applicationContext;
     }
 

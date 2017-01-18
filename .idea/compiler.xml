@@ -7,6 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="AOP" />
         <module name="createBean" />
         <module name="Inherience" />
         <module name="javalogictest" />
@@ -15,6 +16,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="AOP" target="1.5" />
       <module name="createBean" target="1.5" />
       <module name="Inherience" target="1.5" />
       <module name="javalogictest" target="1.5" />

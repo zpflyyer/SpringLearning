@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="GBK"?>
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns="http://www.springframework.org/schema/beans"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-4.0.xsd">
+
+    <bean id="person" class="com.pengfei.spring.ceateBean.FactoryMethod.Human" >
+        <property name="dog" ref="wang"/>
+        <property name="kind" ref="black"/>
+        <property name="gun" ref="shotGun"/>
+    </bean>
+
+    <bean id="shotGun" factory-bean="gunFactory" factory-method="getGun">
+        <constructor-arg ref="black"/>
+    </bean>
+
+    <bean id="gunFactory" class="com.pengfei.spring.ceateBean.FactoryMethod.GunFactory"/>
+
+    <bean id="wang" class="com.pengfei.spring.ceateBean.FactoryMethod.Dog">
+        <property name="age" value="3"/>
+        <property name="color" value="white"/>
+    </bean>
+
+    <bean id="black" class="com.pengfei.spring.ceateBean.FactoryMethod.HumanKind" factory-method="valueOf">
+        <constructor-arg index="0" value="com.pengfei.spring.ceateBean.FactoryMethod.HumanKind"/>
+        <constructor-arg index="1" value="BLACK"/>
+    </bean>
+</beans>

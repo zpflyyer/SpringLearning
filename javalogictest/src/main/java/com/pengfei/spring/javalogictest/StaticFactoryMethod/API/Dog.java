@@ -13,3 +13,4 @@ class Dog extends Animal {
         System.out.println( "小狗喜欢啃骨头");
     }
 }
+

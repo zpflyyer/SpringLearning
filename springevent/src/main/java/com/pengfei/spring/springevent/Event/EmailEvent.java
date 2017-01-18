@@ -21,6 +21,5 @@ public class EmailEvent extends BaseEvent{
         this.event_type = EventEnum.EMAIL_TYPE;
         this.address = address;
         this.name = name;
-        this.message = message;
     }
 }

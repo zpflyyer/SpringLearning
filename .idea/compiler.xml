@@ -12,6 +12,7 @@
         <module name="Inherience" />
         <module name="javalogictest" />
         <module name="quickstart" />
+        <module name="spelExpression" />
         <module name="springevent" />
       </profile>
     </annotationProcessing>
@@ -21,6 +22,7 @@
       <module name="Inherience" target="1.5" />
       <module name="javalogictest" target="1.5" />
       <module name="quickstart" target="1.5" />
+      <module name="spelExpression" target="1.5" />
       <module name="springevent" target="1.5" />
       <module name="SpringLearnPro" target="1.5" />
       <module name="SprinLearning" target="1.5" />

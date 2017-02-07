@@ -1,4 +1,4 @@
-package com.pengfei.spring.aop.BeanPostProcessor;
+package com.pengfei.spring.BeanPostProcessor;
 
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.config.BeanPostProcessor;

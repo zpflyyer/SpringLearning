@@ -1,4 +1,4 @@
-package com.pengfei.spring.aop.BeanPostProcessor;
+package com.pengfei.spring.BeanPostProcessor;
 
 import com.sun.org.apache.xpath.internal.SourceTree;
 import lombok.AllArgsConstructor;

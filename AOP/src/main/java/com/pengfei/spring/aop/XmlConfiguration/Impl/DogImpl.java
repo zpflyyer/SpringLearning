@@ -1,6 +1,6 @@
-package com.pengfei.spring.aop.Impl;
+package com.pengfei.spring.aop.XmlConfiguration.Impl;
 
-import com.pengfei.spring.aop.Service.Dog;
+import com.pengfei.spring.aop.XmlConfiguration.Service.Dog;
 import org.springframework.stereotype.Component;
 
 /**

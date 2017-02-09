@@ -1,13 +1,13 @@
-package com.pengfei.spring.aop.Impl;
+package com.pengfei.spring.aop.XmlConfiguration.Impl;
 
-import com.pengfei.spring.aop.Service.Person;
+import com.pengfei.spring.aop.XmlConfiguration.Service.Person;
 import org.springframework.stereotype.Component;
 
 /**
  * Created by zhaopen on 2/7/2017.
  */
 @Component("person")
-class PersonImpl implements  Person{
+class PersonImpl implements Person {
     public String eat(String foodname){
         System.out.println("eating " + foodname);
         return "good";

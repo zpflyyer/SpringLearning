@@ -11,28 +11,8 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="Maven: org.codehaus.mojo:aspectj-maven-plugin:1.0-beta-2" level="project" />
-    <orderEntry type="library" name="Maven: org.codehaus.plexus:plexus-compiler-api:1.5.1" level="project" />
-    <orderEntry type="library" name="Maven: org.codehaus.plexus:plexus-utils:1.0.4" level="project" />
-    <orderEntry type="library" name="Maven: org.codehaus.plexus:plexus-container-default:1.0-alpha-8" level="project" />
-    <orderEntry type="library" name="Maven: junit:junit:3.8.1" level="project" />
-    <orderEntry type="library" name="Maven: classworlds:classworlds:1.1-alpha-2" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.maven:maven-project:2.0" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.maven:maven-profile:2.0" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.maven:maven-model:2.0" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.maven:maven-artifact-manager:2.0" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.maven:maven-repository-metadata:2.0" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.maven.wagon:wagon-provider-api:1.0-alpha-5" level="project" />
-    <orderEntry type="library" name="Maven: aspectj:aspectjtools:1.5.2a" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.maven:maven-plugin-api:2.0" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.maven.reporting:maven-reporting-api:2.0" level="project" />
-    <orderEntry type="library" name="Maven: doxia:doxia-sink-api:1.0-alpha-4" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.maven.reporting:maven-reporting-impl:2.0" level="project" />
-    <orderEntry type="library" name="Maven: commons-validator:commons-validator:1.1.4" level="project" />
-    <orderEntry type="library" name="Maven: oro:oro:2.0.7" level="project" />
-    <orderEntry type="library" name="Maven: doxia:doxia-core:1.0-alpha-4" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.maven:maven-artifact:2.0" level="project" />
     <orderEntry type="library" name="Maven: aspectj:aspectjrt:1.5.2a" level="project" />
+    <orderEntry type="library" name="Maven: org.aspectj:aspectjweaver:1.8.9" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-context:4.3.5.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-aop:4.3.5.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-beans:4.3.5.RELEASE" level="project" />

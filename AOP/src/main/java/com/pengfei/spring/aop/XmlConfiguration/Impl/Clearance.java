@@ -1,4 +1,4 @@
-package com.pengfei.spring.aop.Impl;
+package com.pengfei.spring.aop.XmlConfiguration.Impl;
 
 import org.springframework.stereotype.Component;
 

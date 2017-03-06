@@ -15,6 +15,7 @@
         <module>createBean</module>
         <module>AOP</module>
         <module>spelExpression</module>
+        <module>SpringCache</module>
     </modules>
 
     <dependencies>

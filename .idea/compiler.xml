@@ -13,6 +13,7 @@
         <module name="javalogictest" />
         <module name="quickstart" />
         <module name="spelExpression" />
+        <module name="SpringCache" />
         <module name="springevent" />
       </profile>
     </annotationProcessing>
@@ -23,6 +24,7 @@
       <module name="javalogictest" target="1.5" />
       <module name="quickstart" target="1.5" />
       <module name="spelExpression" target="1.5" />
+      <module name="SpringCache" target="1.5" />
       <module name="springevent" target="1.5" />
       <module name="SpringLearnPro" target="1.5" />
       <module name="SprinLearning" target="1.5" />

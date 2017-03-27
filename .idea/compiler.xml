@@ -15,6 +15,7 @@
         <module name="spelExpression" />
         <module name="SpringCache" />
         <module name="springevent" />
+        <module name="SpringMVC" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -27,6 +28,7 @@
       <module name="SpringCache" target="1.5" />
       <module name="springevent" target="1.5" />
       <module name="SpringLearnPro" target="1.5" />
+      <module name="SpringMVC" target="1.7" />
       <module name="SprinLearning" target="1.5" />
       <module name="StringTest" target="1.5" />
     </bytecodeTargetLevel>

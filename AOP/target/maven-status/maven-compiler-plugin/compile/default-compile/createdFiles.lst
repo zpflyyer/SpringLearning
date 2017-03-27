@@ -1,0 +1,17 @@
+com\pengfei\spring\aop\Annotation\Service\Dog.class
+com\pengfei\spring\aop\Annotation\Impl\PersonImpl.class
+com\pengfei\spring\aop\Annotation\Impl\DogImpl.class
+com\pengfei\spring\aop\Annotation\AspectAdvice.class
+com\pengfei\spring\aop\XmlConfiguration\Service\Person.class
+com\pengfei\spring\BeanPostProcessor\BeanPostProcessorInstance.class
+com\pengfei\spring\aop\XmlConfiguration\Impl\PersonImpl.class
+com\pengfei\spring\aop\XmlConfiguration\AspectAdvice.class
+com\pengfei\spring\aop\XmlConfiguration\AOPTestXml.class
+com\pengfei\spring\aop\Annotation\Impl\Clearance.class
+com\pengfei\spring\aop\Annotation\AOPTestAnno.class
+com\pengfei\spring\aop\Annotation\Service\Person.class
+com\pengfei\spring\aop\XmlConfiguration\Impl\DogImpl.class
+com\pengfei\spring\aop\XmlConfiguration\Service\Dog.class
+com\pengfei\spring\BeanPostProcessor\BeanPostProcessorTest.class
+com\pengfei\spring\aop\XmlConfiguration\Impl\Clearance.class
+com\pengfei\spring\BeanPostProcessor\Human.class

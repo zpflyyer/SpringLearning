@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="GBK"?>
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns="http://www.springframework.org/schema/beans"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-4.0.xsd">
+
+    <bean id="person" class="com.pengfei.spring.ceateBean.PropertyPathFactoryBean.Person">
+        <property name="name" value="xiaoyou"/>
+        <property name="age" value="34"/>
+        <property name="son">
+            <bean class="com.pengfei.spring.ceateBean.PropertyPathFactoryBean.Son">
+                <property name="name" value="datou"/>
+                <property name="age" value="7"/>
+            </bean>
+        </property>
+    </bean>
+
+    <bean id="person.son" class="org.springframework.beans.factory.config.PropertyPathFactoryBean">
+        <!--<property name="targetBeanName" value="person"/>-->
+        <!--<property name="propertyPath" value="son"/>-->
+    </bean>
+
+</beans>

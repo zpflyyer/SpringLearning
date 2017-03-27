@@ -1,0 +1,4 @@
+com\pengfei\springcache\service\impl\UserServiceImpl.class
+com\pengfei\springcache\service\UserService.class
+com\pengfei\springcache\CacheApplication.class
+com\pengfei\springcache\domain\User.class
